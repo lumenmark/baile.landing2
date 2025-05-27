@@ -102,6 +102,27 @@ export default function CityPage() {
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
               {cityData.hero.description}
             </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 max-w-3xl mx-auto text-left">
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">📍</span>
+                <span>Discover dance events in your city or wherever you travel</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">👥</span>
+                <span>Connect with dancers on and off the floor</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">🤝</span>
+                <span>Find practice partners</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">🎵</span>
+                <span>Get alerts of upcoming events</span>
+              </div>
+            </div>
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
+            Take your dance experience to the next level.
+            </p>
           </header>
 
           <section className="flex flex-col lg:flex-row items-center justify-center gap-4 px-6 md:px-20 py-2">
