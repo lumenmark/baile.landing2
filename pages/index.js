@@ -40,16 +40,13 @@ export default function Home() {
 
         <section className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 md:px-20 py-12">
           <div className="max-w-md">
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur opacity-75"></div>
-              <Image 
-                src="/baile-phone-app.jpg" 
-                alt="Baile.AI App Preview" 
-                width={400} 
-                height={800} 
-                className="relative rounded-2xl shadow-2xl"
-              />
-            </div>
+            <Image 
+              src="/baile-phone-app.webp" 
+              alt="Baile.AI App Preview" 
+              width={400} 
+              height={800} 
+              className=""
+            />
           </div>
           <div className="max-w-md w-full">
             {!submitted ? (
@@ -59,8 +56,8 @@ export default function Home() {
                   <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                     Request Early Access
                   </h2>
-                  <p className="text-gray-400 text-center mb-6 text-sm">
-                    Early access is currently full. Share your email, and we'll notify you as soon as a spot opens up.
+                  <p className="text-gray-200 text-center mb-6 text-base font-medium">
+                    Early access is currently full. Enter your email, and we'll notify you as soon as a spot opens up.
                   </p>
                   <div className="mb-6">
                     <input
@@ -76,7 +73,7 @@ export default function Home() {
                     type="submit" 
                     className="w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-4 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                   >
-                    Get Early Access
+                    Request Early Access
                   </button>
                 </form>
               </div>
@@ -95,9 +92,6 @@ export default function Home() {
         </section>
 
         <section className="px-6 md:px-20 py-20">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Why Baile.AI?
-          </h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
               <div className="text-3xl mb-4">🎭</div>
