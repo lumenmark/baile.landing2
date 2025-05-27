@@ -30,11 +30,8 @@ export default function Custom404() {
                 <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="text-3xl mb-3">🏠</div>
                   <h3 className="text-lg font-semibold text-pink-400 group-hover:text-pink-300">
-                    Go Home
+                    Go Back to Baile.AI
                   </h3>
-                  <p className="text-gray-300 text-sm">
-                    Return to the main page
-                  </p>
                 </div>
               </Link>
             </div>
@@ -63,8 +60,8 @@ export default function Custom404() {
                 Need Help?
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
-                If you were looking for a specific city that's not listed, we're constantly adding new locations. 
-                Check back soon or <Link href="/" className="text-pink-400 hover:text-pink-300 underline">request early access</Link> to get notified when your city is added.
+                
+                Check back soon or <Link href="/" className="text-pink-400 hover:text-pink-300 underline">request early access</Link> when a spot opens.
               </p>
             </div>
           </div>
