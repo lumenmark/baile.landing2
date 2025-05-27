@@ -35,6 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/public/robots.txt
-/public/sitemap*.xml
 **/.claude/settings.local.json
