@@ -95,7 +95,7 @@ export default function CityPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10">
-          <header className="text-center pt-11 md:pt-16 pb-16 px-4">
+          <header className="text-center pt-7 md:pt-16 pb-8 md:pb-16 px-4">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent leading-tight">
               {cityData.hero.title}
             </h1>
@@ -105,7 +105,7 @@ export default function CityPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 max-w-3xl mx-auto text-left">
               <div className="flex items-start space-x-3 text-lg text-gray-300">
                 <span className="text-2xl flex-shrink-0">📍</span>
-                <span>Discover dance events in your city or wherever you travel</span>
+                <span>Discover dance events in {cityData.name}  or wherever you travel</span>
               </div>
               <div className="flex items-start space-x-3 text-lg text-gray-300">
                 <span className="text-2xl flex-shrink-0">👥</span>
@@ -183,9 +183,7 @@ export default function CityPage() {
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-xl text-gray-300 leading-relaxed">
                 We love dance — and we've been dancing forever. Now, we're building the platform we always wished existed. 
-                Made by dancers, for the dance community. Discover dance events in {cityData.name} or wherever you travel. 
-                Connect with dancers on and off the floor, find practice partners, request songs from DJs — 
-                take your dance experience to the next level.
+                Made by dancers, for the dance community. 
               </p>
             </div>
           </section>
