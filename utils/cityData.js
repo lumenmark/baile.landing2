@@ -527,6 +527,11 @@ const cityData = {
         name: 'Kizomba',
         emoji: '🌍',
         description: 'DC has one of the strongest kizomba communities in the US, with connections to African embassies and cultural organizations.'
+      },
+      {
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Experience the flowing movements of Brazilian zouk with DC\'s sophisticated international dance community.'
       }
     ],
     danceSchools: [

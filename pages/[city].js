@@ -200,24 +200,6 @@ export default function CityPage() {
             </div>
           </section>
 
-          {/* Featured Dance Styles */}
-          <section className="px-6 md:px-20 py-16">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-                Popular Dance Styles in {cityData.name}
-              </h2>
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {cityData.danceStyles.map((style, index) => (
-                  <div key={index} className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
-                    <div className="text-3xl mb-4">{style.emoji}</div>
-                    <h3 className="text-xl font-semibold mb-3 text-pink-400">{style.name}</h3>
-                    <p className="text-gray-300">{style.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
           {/* Platform Features */}
           <section className="px-6 md:px-20 py-20">
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
@@ -245,6 +227,24 @@ export default function CityPage() {
                 <div className="text-3xl mb-4">💃</div>
                 <h3 className="text-xl font-semibold mb-3 text-purple-400">By Dancers, For Dancers</h3>
                 <p className="text-gray-300">Created by passionate dancers who understand the community's needs and challenges.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Featured Dance Styles */}
+          <section className="px-6 md:px-20 py-16">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+                Popular Dance Styles in {cityData.name}
+              </h2>
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {cityData.danceStyles.map((style, index) => (
+                  <div key={index} className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                    <div className="text-3xl mb-4">{style.emoji}</div>
+                    <h3 className="text-xl font-semibold mb-3 text-pink-400">{style.name}</h3>
+                    <p className="text-gray-300">{style.description}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </section>
