@@ -4,23 +4,18 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { getCityData, getAllCities } from '../utils/cityData'
 
-export default function CityPage() {
+export default function CityPage({ cityData }) {
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
   const [referrer, setReferrer] = useState('')
   const router = useRouter()
   const { city } = router.query
   
-  const cityData = getCityData(city)
   const allCities = getAllCities()
 
   useEffect(() => {
     setReferrer(document.referrer || '')
   }, [])
-
-  if (!cityData) {
-    return <div>City not found</div>
-  }
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -360,4 +355,32 @@ export default function CityPage() {
       </div>
     </>
   )
+}
+
+export async function getStaticPaths() {
+  const allCities = getAllCities()
+  const paths = allCities.map((city) => ({
+    params: { city },
+  }))
+
+  return {
+    paths,
+    fallback: false, // This will show 404 for any path not in paths
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const cityData = getCityData(params.city)
+  
+  if (!cityData) {
+    return {
+      notFound: true, // This will show the 404 page
+    }
+  }
+
+  return {
+    props: {
+      cityData,
+    },
+  }
 }
