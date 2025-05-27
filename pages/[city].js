@@ -95,7 +95,7 @@ export default function CityPage() {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10">
-          <header className="text-center pt-7 md:pt-10 pb-8 md:pb-8 px-4">
+          <header className="text-center pt-5 md:pt-10 pb-4 md:pb-8 px-4">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent leading-tight">
               {cityData.hero.title}
             </h1>
