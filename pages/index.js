@@ -40,15 +40,6 @@ export default function Home() {
         </header>
 
         <section className="flex flex-col lg:flex-row items-center justify-center gap-4 px-6 md:px-20 py-2">
-          <div className="max-w-md">
-            <Image 
-              src="/baile-phone-app.webp" 
-              alt="Baile.AI App Preview" 
-              width={400} 
-              height={800} 
-              className=""
-            />
-          </div>
           <div className="max-w-md w-full">
             {!submitted ? (
               <div className="relative">
@@ -89,6 +80,15 @@ export default function Home() {
                 </div>
               </div>
             )}
+          </div>
+          <div className="max-w-md">
+            <Image 
+              src="/baile-phone-app.webp" 
+              alt="Baile.AI App Preview" 
+              width={400} 
+              height={800} 
+              className=""
+            />
           </div>
         </section>
 
