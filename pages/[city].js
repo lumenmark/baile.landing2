@@ -125,8 +125,8 @@ export default function CityPage() {
             </p>
           </header>
 
-          <section className="flex flex-col lg:flex-row items-center justify-center gap-4 px-6 md:px-20 py-2">
-            <div className="max-w-md w-full order-2 lg:order-1">
+          <section className="flex flex-col lg:flex-row items-start justify-center gap-4 px-6 md:px-20 py-2">
+            <div className="max-w-md w-full order-2 lg:order-1 lg:mt-20">
               {!submitted ? (
                 <div className="relative">
                   <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur opacity-20"></div>
