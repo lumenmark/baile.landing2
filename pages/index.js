@@ -26,7 +26,35 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Baile.AI",
+            "description": "The dance community platform - discover events, connect with dancers, organize practice sessions",
+            "url": "https://baile.ai",
+            "applicationCategory": "SocialNetworkingApplication",
+            "operatingSystem": "iOS, Android",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "author": {
+              "@type": "Organization",
+              "name": "Baile.AI"
+            },
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Dancers, Dance Community"
+            }
+          })
+        }}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white">
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="relative z-10">
         <header className="text-center py-16 px-4">
@@ -130,7 +158,7 @@ export default function Home() {
         <section className="px-6 md:px-20 py-20">
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-              Launching Soon In:
+              Current Cities
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {['New York City', 'Austin', 'Dallas', 'Houston', 'Miami', 'Portland', 'Seattle','San Francisco'].map(city => (
@@ -147,5 +175,6 @@ export default function Home() {
         </section>
       </div>
     </div>
+    </>
   )
 }
