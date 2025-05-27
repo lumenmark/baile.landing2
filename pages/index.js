@@ -174,6 +174,42 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Dance Styles */}
+        <section className="px-6 md:px-20 py-20">
+          <div className="text-center max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+              Popular Dance Styles
+            </h2>
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">💃</div>
+                <h3 className="text-xl font-semibold mb-3 text-pink-400">Bachata</h3>
+                <p className="text-gray-300">Experience the sensual rhythms of bachata, from traditional Dominican styles to modern sensual variations. Connect with partners through this passionate Caribbean dance.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-purple-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🕺</div>
+                <h3 className="text-xl font-semibold mb-3 text-purple-400">Salsa</h3>
+                <p className="text-gray-300">Dance to the vibrant rhythms of salsa, from Cuban son to LA-style and everything in between. Join the global salsa community in your city.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-indigo-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🌊</div>
+                <h3 className="text-xl font-semibold mb-3 text-indigo-400">Zouk</h3>
+                <p className="text-gray-300">Discover the flowing movements of Brazilian zouk, where connection and musicality create beautiful partner dancing experiences.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🌍</div>
+                <h3 className="text-xl font-semibold mb-3 text-pink-400">Kizomba</h3>
+                <p className="text-gray-300">Experience the intimate and smooth movements of kizomba, the Angolan dance that has captivated dancers worldwide with its close connection.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-purple-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">✨</div>
+                <h3 className="text-xl font-semibold mb-3 text-purple-400">West Coast Swing</h3>
+                <p className="text-gray-300">Dance the smooth and versatile West Coast Swing, a partner dance that adapts to any music and emphasizes improvisation and connection.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="px-6 md:px-20 py-20">
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
