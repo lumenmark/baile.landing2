@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple dancer silhouette optimized for small sizes -->
+  <g fill="url(#grad)">
+    <!-- Head -->
+    <circle cx="16" cy="7" r="2.5"/>
+    
+    <!-- Body -->
+    <ellipse cx="16" cy="15" rx="2" ry="6"/>
+    
+    <!-- Left arm (raised) -->
+    <ellipse cx="12" cy="12" rx="1" ry="3" transform="rotate(-45 12 12)"/>
+    
+    <!-- Right arm (extended) -->
+    <ellipse cx="20" cy="14" rx="3" ry="1"/>
+    
+    <!-- Left leg -->
+    <ellipse cx="14" cy="24" rx="1" ry="4" transform="rotate(-20 14 24)"/>
+    
+    <!-- Right leg (dancing pose) -->
+    <ellipse cx="18" cy="23" rx="1" ry="4" transform="rotate(25 18 23)"/>
+    
+    <!-- Flowing skirt -->
+    <path d="M 12 18 Q 16 22 20 18 Q 18 25 16 24 Q 14 25 12 18" opacity="0.6"/>
+  </g>
+</svg>
