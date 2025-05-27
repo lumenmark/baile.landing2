@@ -391,6 +391,307 @@ const cityData = {
       { name: 'The Independent', type: 'Music Venue', area: 'The Fillmore' },
       { name: 'Ashkenaz', type: 'Community Dance Center', area: 'Berkeley' }
     ]
+  },
+  'los-angeles': {
+    name: 'Los Angeles',
+    slug: 'los-angeles',
+    seo: {
+      title: 'Dance Events in Los Angeles | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Los Angeles dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the LA dance scene with Baile.AI.',
+      keywords: [
+        'la bachata events', 'los angeles salsa events', 'la zouk events', 'los angeles latin dance events',
+        'la social dancing', 'los angeles dance classes', 'la dance community', 'los angeles dance partners',
+        'la kizomba events', 'los angeles dance meetups', 'hollywood dancing', 'west hollywood dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Los Angeles with Baile.AI',
+      description: 'Experience the glamour and passion of LA\'s dance scene. From Hollywood studios to beachside socials, Los Angeles offers world-class instruction and star-studded events in the entertainment capital of the world.'
+    },
+    danceScene: {
+      overview: 'Los Angeles boasts one of the most dynamic and influential dance scenes globally. With deep roots in the entertainment industry and a massive Latino population, LA offers everything from Hollywood glamour to authentic barrio culture.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'LA\'s bachata scene is legendary, home to international champions and the birthplace of many modern bachata innovations.'
+      },
+      {
+        name: 'Salsa LA Style',
+        emoji: '🕺',
+        description: 'Experience the birthplace of LA-style salsa dancing, where Hollywood meets Latin passion in perfectly choreographed moves.'
+      },
+      {
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'Dance the smooth and versatile West Coast Swing that originated in California and remains hugely popular in LA.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Xtreme Dance Center', specialties: ['Bachata', 'Salsa LA', 'Zouk'], area: 'Hollywood' },
+      { name: 'Dancecorp', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'West Hollywood' },
+      { name: 'Arthur Murray Beverly Hills', specialties: ['Ballroom', 'Latin', 'Social'], area: 'Beverly Hills' },
+      { name: 'Club Mayan Dance Academy', specialties: ['Salsa', 'Bachata', 'Cumbia'], area: 'Downtown LA' }
+    ],
+    venues: [
+      { name: 'El Floridita', type: 'Cuban Restaurant & Dancing', area: 'Hollywood' },
+      { name: 'Club Mayan', type: 'Historic Latin Club', area: 'Downtown LA' },
+      { name: 'Harvelle\'s', type: 'Blues Club & Dancing', area: 'West Hollywood' },
+      { name: 'The Granada', type: 'Theater & Events', area: 'West Hollywood' },
+      { name: 'Conga Room', type: 'Latin Nightclub', area: 'Downtown LA' },
+      { name: 'Moonlight Rollerway', type: 'Roller Rink & Dancing', area: 'Glendale' }
+    ]
+  },
+  'chicago': {
+    name: 'Chicago',
+    slug: 'chicago',
+    seo: {
+      title: 'Dance Events in Chicago | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Chicago dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Chicago dance scene with Baile.AI.',
+      keywords: [
+        'chicago bachata events', 'chicago salsa events', 'chicago zouk events', 'chicago latin dance events',
+        'chicago social dancing', 'chicago dance classes', 'chicago dance community', 'chicago dance partners',
+        'chicago kizomba events', 'chicago dance meetups', 'pilsen dancing', 'little village dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Chicago with Baile.AI',
+      description: 'Join Chicago\'s passionate dance community where Midwest hospitality meets Latin fire. From Pilsen to Lincoln Park, the Windy City offers authentic culture and world-class social dancing.'
+    },
+    danceScene: {
+      overview: 'Chicago\'s dance scene is deeply rooted in the city\'s rich Latino heritage, particularly in neighborhoods like Pilsen and Little Village. The community combines authentic traditional styles with contemporary innovation, all wrapped in famous Midwest friendliness.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Chicago\'s bachata community is known for its warmth and technique, with strong Dominican and Mexican influences shaping the local style.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with authentic Mexican and Puerto Rican flavors in Chicago\'s vibrant Latino neighborhoods.'
+      },
+      {
+        name: 'Chicago Stepping',
+        emoji: '🎩',
+        description: 'Learn the smooth and sophisticated Chicago Stepping, a uniquely local dance style that originated in the city\'s South Side.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Chicago Salsa & Bachata Academy', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Pilsen' },
+      { name: 'DancEast Studio', specialties: ['Bachata', 'Zouk', 'Kizomba'], area: 'Logan Square' },
+      { name: 'Tango Berretin', specialties: ['Argentine Tango', 'Milonga'], area: 'Lincoln Park' },
+      { name: 'Stepping With Style', specialties: ['Chicago Stepping', 'Steppin\''], area: 'South Side' }
+    ],
+    venues: [
+      { name: 'Alhambra Palace', type: 'Historic Ballroom', area: 'West Side' },
+      { name: 'Cafe Bionda', type: 'Italian Restaurant & Dancing', area: 'Little Italy' },
+      { name: 'La Catrina Cafe', type: 'Mexican Restaurant & Dancing', area: 'Pilsen' },
+      { name: 'Chicago Stepin\'', type: 'Stepping Venue', area: 'South Side' },
+      { name: 'Neo-Futurist Theater', type: 'Alternative Venue', area: 'Andersonville' }
+    ]
+  },
+  'washington-dc': {
+    name: 'Washington DC',
+    slug: 'washington-dc',
+    seo: {
+      title: 'Dance Events in Washington DC | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Washington DC dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the DC dance scene with Baile.AI.',
+      keywords: [
+        'dc bachata events', 'washington dc salsa events', 'dc zouk events', 'washington dc latin dance events',
+        'dc social dancing', 'washington dc dance classes', 'dc dance community', 'washington dc dance partners',
+        'dc kizomba events', 'washington dc dance meetups', 'adams morgan dancing', 'dupont circle dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Washington DC with Baile.AI',
+      description: 'Experience the sophisticated and international dance scene in the nation\'s capital. Connect with diplomats, professionals, and passionate dancers from around the world in DC\'s diverse social dance community.'
+    },
+    danceScene: {
+      overview: 'Washington DC\'s dance scene reflects the city\'s international character and professional atmosphere. With embassies, universities, and a highly educated population, the dance community is sophisticated, diverse, and welcoming to dancers of all backgrounds.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'DC\'s bachata scene attracts international dancers and features both traditional Dominican and modern sensual styles with exceptional technique.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with influences from across Latin America, reflecting DC\'s international diplomatic community.'
+      },
+      {
+        name: 'Kizomba',
+        emoji: '🌍',
+        description: 'DC has one of the strongest kizomba communities in the US, with connections to African embassies and cultural organizations.'
+      }
+    ],
+    danceSchools: [
+      { name: 'DC Dance Collective', specialties: ['Salsa', 'Bachata', 'Zouk'], area: 'Dupont Circle' },
+      { name: 'Salsa With Silvia', specialties: ['Salsa', 'Bachata', 'Cha-cha'], area: 'Adams Morgan' },
+      { name: 'DanceSport Academy', specialties: ['Ballroom', 'Latin', 'Competition'], area: 'Chevy Chase' },
+      { name: 'Kizomba DC', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'Columbia Heights' }
+    ],
+    venues: [
+      { name: 'Cafe Citron', type: 'Latin Restaurant & Dancing', area: 'Dupont Circle' },
+      { name: 'Eighteenth Street Lounge', type: 'Upscale Club', area: 'Dupont Circle' },
+      { name: 'Tropicalia', type: 'Latin Club', area: 'Adams Morgan' },
+      { name: 'La Tasca', type: 'Spanish Restaurant & Dancing', area: 'Dupont Circle' },
+      { name: 'Policy', type: 'Rooftop Bar & Dancing', area: 'U Street' }
+    ]
+  },
+  'atlanta': {
+    name: 'Atlanta',
+    slug: 'atlanta',
+    seo: {
+      title: 'Dance Events in Atlanta | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Atlanta dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Atlanta dance scene with Baile.AI.',
+      keywords: [
+        'atlanta bachata events', 'atlanta salsa events', 'atlanta zouk events', 'atlanta latin dance events',
+        'atlanta social dancing', 'atlanta dance classes', 'atlanta dance community', 'atlanta dance partners',
+        'atlanta kizomba events', 'atlanta dance meetups', 'buckhead dancing', 'midtown atlanta dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Atlanta with Baile.AI',
+      description: 'Join Atlanta\'s vibrant and welcoming dance community where Southern hospitality meets Latin passion. Experience the growing social dance scene in the cultural heart of the New South.'
+    },
+    danceScene: {
+      overview: 'Atlanta\'s dance scene is rapidly growing, fueled by the city\'s expanding Latino population and vibrant nightlife culture. The community combines Southern charm with Latin fire, creating a uniquely welcoming atmosphere for dancers of all levels.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Atlanta\'s bachata scene is passionate and growing, with regular socials and workshops featuring visiting international instructors.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with Southern flair, where traditional Latin styles meet Atlanta\'s famous hospitality and energy.'
+      },
+      {
+        name: 'Reggaeton',
+        emoji: '🔥',
+        description: 'Dance to the urban beats of reggaeton and perreo that pulse through Atlanta\'s dynamic hip-hop influenced nightlife scene.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Atlanta Salsa Academy', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Midtown' },
+      { name: 'DanceBeat Studio', specialties: ['Bachata', 'Zouk', 'Kizomba'], area: 'Buckhead' },
+      { name: 'Atlanta Ballroom Dance Center', specialties: ['Ballroom', 'Latin', 'Social'], area: 'Sandy Springs' },
+      { name: 'Ritmo Latino ATL', specialties: ['Salsa', 'Bachata', 'Cumbia'], area: 'Doraville' }
+    ],
+    venues: [
+      { name: 'Havana Club ATL', type: 'Cuban Restaurant & Dancing', area: 'Midtown' },
+      { name: 'Red Phone Booth', type: 'Speakeasy & Dancing', area: 'East Atlanta' },
+      { name: 'Opera Nightclub', type: 'Upscale Club', area: 'Midtown' },
+      { name: 'Eclipse di Luna', type: 'Spanish Tapas & Dancing', area: 'Dunwoody' },
+      { name: 'The Sound Table', type: 'Music Venue & Dancing', area: 'Old Fourth Ward' }
+    ]
+  },
+  'orlando': {
+    name: 'Orlando',
+    slug: 'orlando',
+    seo: {
+      title: 'Dance Events in Orlando | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Orlando dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Orlando dance scene with Baile.AI.',
+      keywords: [
+        'orlando bachata events', 'orlando salsa events', 'orlando zouk events', 'orlando latin dance events',
+        'orlando social dancing', 'orlando dance classes', 'orlando dance community', 'orlando dance partners',
+        'orlando kizomba events', 'orlando dance meetups', 'downtown orlando dancing', 'winter park dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Orlando with Baile.AI',
+      description: 'Experience Orlando\'s energetic dance scene where theme park magic meets Latin passion. Join a diverse community of dancers in the heart of Central Florida\'s entertainment capital.'
+    },
+    danceScene: {
+      overview: 'Orlando\'s dance scene benefits from the city\'s tourism industry and growing Latino population. The community is energetic and diverse, with influences from Puerto Rico, Colombia, and the Caribbean creating a unique Central Florida flavor.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Orlando\'s bachata community is vibrant and welcoming, with strong Caribbean influences and regular events featuring live music.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Dance salsa with authentic Puerto Rican and Colombian flavors in Orlando\'s growing Latino entertainment district.'
+      },
+      {
+        name: 'Merengue',
+        emoji: '🌴',
+        description: 'Enjoy the fast-paced rhythms of merengue that reflect Orlando\'s strong Dominican and Caribbean connections.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Orlando Salsa Dancing', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Downtown Orlando' },
+      { name: 'DanceMakers Studio', specialties: ['Bachata', 'Zouk', 'Latin'], area: 'Winter Park' },
+      { name: 'Fred Astaire Dance Studio', specialties: ['Ballroom', 'Latin', 'Social'], area: 'Dr. Phillips' },
+      { name: 'Ritmo Tropical', specialties: ['Salsa', 'Bachata', 'Caribbean'], area: 'International Drive' }
+    ],
+    venues: [
+      { name: 'Coco Key Hotel', type: 'Resort Dancing', area: 'International Drive' },
+      { name: 'Cafe Tu Tu Tango', type: 'Artistic Restaurant & Dancing', area: 'International Drive' },
+      { name: 'The Social', type: 'Music Venue', area: 'Downtown Orlando' },
+      { name: 'Mangos Tropical Cafe', type: 'Caribbean Restaurant & Dancing', area: 'International Drive' },
+      { name: 'House of Blues', type: 'Concert Hall', area: 'Disney Springs' }
+    ]
+  },
+  'philadelphia': {
+    name: 'Philadelphia',
+    slug: 'philadelphia',
+    seo: {
+      title: 'Dance Events in Philadelphia | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Philadelphia dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Philadelphia dance scene with Baile.AI.',
+      keywords: [
+        'philadelphia bachata events', 'philadelphia salsa events', 'philadelphia zouk events', 'philadelphia latin dance events',
+        'philadelphia social dancing', 'philadelphia dance classes', 'philadelphia dance community', 'philadelphia dance partners',
+        'philadelphia kizomba events', 'philadelphia dance meetups', 'philly dancing', 'northern liberties dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Philadelphia with Baile.AI',
+      description: 'Join Philadelphia\'s passionate dance community where brotherly love meets Latin rhythm. Experience authentic social dancing in the City of Brotherly Love\'s vibrant neighborhoods.'
+    },
+    danceScene: {
+      overview: 'Philadelphia\'s dance scene reflects the city\'s rich cultural diversity and working-class authenticity. The community is tight-knit and supportive, with strong Puerto Rican and Dominican influences creating an authentic Latin atmosphere.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Philly\'s bachata scene is growing strong with authentic Dominican flavor and passionate local dancers who welcome newcomers.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with authentic Puerto Rican and New York influences in Philadelphia\'s Latino neighborhoods.'
+      },
+      {
+        name: 'Hustle',
+        emoji: '🕺',
+        description: 'Learn the smooth partner dance that originated in New York but found a strong home in Philadelphia\'s dance community.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Philadelphia Salsa Society', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Center City' },
+      { name: 'DanceSport Academy', specialties: ['Ballroom', 'Latin', 'Hustle'], area: 'Rittenhouse Square' },
+      { name: 'Philly Bachata', specialties: ['Bachata', 'Zouk', 'Sensual'], area: 'Northern Liberties' },
+      { name: 'Latin Soul Dance Company', specialties: ['Salsa', 'Bachata', 'Performance'], area: 'Fishtown' }
+    ],
+    venues: [
+      { name: 'Coco Bar', type: 'Latin Restaurant & Dancing', area: 'Center City' },
+      { name: 'Silk City Diner', type: 'Retro Diner & Dancing', area: 'Northern Liberties' },
+      { name: 'Union Transfer', type: 'Concert Venue', area: 'Fishtown' },
+      { name: 'Rumor', type: 'Upscale Nightclub', area: 'Center City' },
+      { name: 'World Cafe Live', type: 'Music Venue', area: 'University City' }
+    ]
   }
 }
 
