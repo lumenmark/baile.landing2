@@ -162,7 +162,7 @@ export default function CityPage() {
                     <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
                       Welcome to {cityData.name}!
                     </h2>
-                    <p className="text-gray-300 text-center text-lg">We'll notify you when early access is ready in {cityData.name}.</p>
+                    <p className="text-gray-300 text-center text-lg">We'll notify you when there is a spot open for early access in {cityData.name}.</p>
                   </div>
                 </div>
               )}
@@ -324,11 +324,11 @@ export default function CityPage() {
                 Ready to Dance in {cityData.name}?
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Join hundreds of dancers already signed up for early access in {cityData.name}.
+                Join hundreds of dancers already in early access for {cityData.name}.
               </p>
               {!submitted && (
                 <button 
-                  onClick={() => document.querySelector('input[type="email"]').scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.querySelector('form').scrollIntoView({ behavior: 'smooth', block: 'center' })}
                   className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                 >
                   Get Early Access

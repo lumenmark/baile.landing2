@@ -192,6 +192,26 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Call to Action */}
+        <section className="px-6 md:px-20 py-20">
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+              Ready to Transform Your Dance Experience?
+            </h2>
+            <p className="text-xl text-gray-300 mb-8">
+              Join hundreds of dancers already using Baile.AI.
+            </p>
+            {!submitted && (
+              <button 
+                onClick={() => document.querySelector('form').scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+              >
+                Get Early Access
+              </button>
+            )}
+          </div>
+        </section>
       </div>
     </div>
     </>
