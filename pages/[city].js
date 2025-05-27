@@ -156,6 +156,18 @@ export default function CityPage() {
             </div>
           </section>
 
+          {/* About Baile.AI */}
+          <section className="px-6 md:px-20 py-16">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-xl text-gray-300 leading-relaxed">
+                We love dance — and we've been dancing forever. Now, we're building the platform we always wished existed. 
+                Made by dancers, for the dance community. Discover dance events in {cityData.name} or wherever you travel. 
+                Connect with dancers on and off the floor, find practice partners, request songs from DJs — 
+                take your dance experience to the next level.
+              </p>
+            </div>
+          </section>
+
           {/* Dance Scene Overview */}
           <section className="px-6 md:px-20 py-16">
             <div className="max-w-4xl mx-auto text-center">
