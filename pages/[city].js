@@ -336,6 +336,18 @@ export default function CityPage() {
               )}
             </div>
           </section>
+
+          {/* Footer Navigation */}
+          <footer className="px-6 md:px-20 py-8">
+            <div className="text-center">
+              <a 
+                href="/" 
+                className="inline-flex items-center text-pink-400 hover:text-pink-300 transition-colors duration-300 text-sm font-medium bg-black/20 backdrop-blur-sm px-4 py-3 rounded-lg border border-white/10 hover:border-pink-400/30"
+              >
+                ← Back to Baile.AI
+              </a>
+            </div>
+          </footer>
         </div>
       </div>
     </>
