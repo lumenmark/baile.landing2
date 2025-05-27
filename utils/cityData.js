@@ -12,7 +12,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance NYC with Baile.AI',
+      title: 'Dance in NYC with Baile.AI',
       description: 'Join the vibrant New York City dance community. Discover the best bachata, salsa, and zouk events across Manhattan, Brooklyn, and Queens. Connect with fellow dancers in the city that never sleeps.'
     },
     danceScene: {
@@ -63,7 +63,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Austin with Baile.AI',
+      title: 'Dance in Austin with Baile.AI',
       description: 'Experience Austin\'s vibrant dance culture where Latin rhythms meet Texas hospitality. Discover bachata, salsa, and zouk events in the Live Music Capital of the World.'
     },
     danceScene: {
@@ -111,7 +111,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Dallas with Baile.AI',
+      title: 'Dance in Dallas with Baile.AI',
       description: 'Join Dallas\'s passionate dance community where traditional Latin rhythms thrive in the heart of Texas. Experience world-class instruction and unforgettable social dancing.'
     },
     danceScene: {
@@ -159,7 +159,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Houston with Baile.AI',
+      title: 'Dance in Houston with Baile.AI',
       description: 'Discover Houston\'s multicultural dance scene where Latin passion meets Southern hospitality. Join a diverse community of dancers in America\'s most diverse city.'
     },
     danceScene: {
@@ -207,7 +207,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Miami with Baile.AI',
+      title: 'Dance in Miami with Baile.AI',
       description: 'Experience the ultimate Latin dance destination. From South Beach to Calle Ocho, Miami pulses with authentic Caribbean and Latin American rhythms that make every night feel like a celebration.'
     },
     danceScene: {
@@ -258,7 +258,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Portland with Baile.AI',
+      title: 'Dance in Portland with Baile.AI',
       description: 'Join Portland\'s unique and inclusive dance community where creativity meets Latin passion. Experience the Pacific Northwest\'s most welcoming dance scene in the City of Roses.'
     },
     danceScene: {
@@ -306,7 +306,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance Seattle with Baile.AI',
+      title: 'Dance in Seattle with Baile.AI',
       description: 'Experience Seattle\'s vibrant dance community where Latin rhythms meet Pacific Northwest energy. Connect with passionate dancers in the Emerald City\'s growing social dance scene.'
     },
     danceScene: {
@@ -354,7 +354,7 @@ const cityData = {
       ]
     },
     hero: {
-      title: 'Dance San Francisco with Baile.AI',
+      title: 'Dance in San Francisco with Baile.AI',
       description: 'Join the sophisticated and diverse dance community in the Bay Area. From Mission District salsa to SOMA bachata, San Francisco offers world-class instruction and unforgettable social dancing.'
     },
     danceScene: {

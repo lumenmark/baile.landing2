@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { getCityData } from '../utils/cityData'
+import { getCityData, getAllCities } from '../utils/cityData'
 
 export default function CityPage() {
   const [email, setEmail] = useState('')
@@ -12,6 +12,7 @@ export default function CityPage() {
   const { city } = router.query
   
   const cityData = getCityData(city)
+  const allCities = getAllCities()
 
   useEffect(() => {
     setReferrer(document.referrer || '')
@@ -262,6 +263,37 @@ export default function CityPage() {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Other Cities */}
+          <section className="px-6 md:px-20 py-20">
+            <div className="text-center max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+                Also Available In
+              </h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {allCities.map(citySlug => {
+                  const otherCityData = getCityData(citySlug)
+                  const isCurrentCity = citySlug === city
+                  return (
+                    <div key={citySlug}>
+                      {isCurrentCity ? (
+                        <div className="bg-pink-500/20 backdrop-blur-lg px-4 py-3 rounded-xl border border-pink-400/50 text-pink-300 font-medium cursor-default">
+                          {otherCityData.name}
+                        </div>
+                      ) : (
+                        <a 
+                          href={`/${citySlug}`} 
+                          className="bg-white/5 backdrop-blur-lg px-4 py-3 rounded-xl border border-white/10 hover:border-pink-400/50 text-pink-400 hover:text-pink-300 transition-all duration-300 hover:transform hover:scale-105 font-medium block"
+                        >
+                          {otherCityData.name}
+                        </a>
+                      )}
+                    </div>
+                  )
+                })}
               </div>
             </div>
           </section>
