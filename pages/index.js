@@ -34,11 +34,12 @@ export default function Home() {
             Welcome to Baile.AI
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
-            Discover all social dance events in your city. Connect with dancers. Organize practices. Always be in the know.
+
+            We’re building the platform dancers have always wanted — created by dancers, for the dance community. Discover social dance events in your city or wherever you travel. Connect on and off the dance floor, find practice partners, organize practice sessions, and stay in the loop..
           </p>
         </header>
 
-        <section className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 md:px-20 py-12">
+        <section className="flex flex-col lg:flex-row items-center justify-center gap-4 px-6 md:px-20 py-2">
           <div className="max-w-md">
             <Image 
               src="/baile-phone-app.webp" 
@@ -95,8 +96,8 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
               <div className="text-3xl mb-4">🎭</div>
-              <h3 className="text-xl font-semibold mb-3 text-pink-400">Comprehensive Events</h3>
-              <p className="text-gray-300">Discover dance events across multiple cities with detailed information and real-time updates.</p>
+              <h3 className="text-xl font-semibold mb-3 text-pink-400">All the Events!</h3>
+              <p className="text-gray-300">Always know where the dance events are — in your home city or wherever you're visiting, with all the details included.</p>
             </div>
             <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-purple-400/50 transition-all duration-300 hover:transform hover:scale-105">
               <div className="text-3xl mb-4">👥</div>
@@ -127,7 +128,7 @@ export default function Home() {
               Launching Soon In:
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {['New York City', 'Austin', 'Dallas', 'Houston', 'Miami', 'Portland', 'Seattle'].map(city => (
+              {['New York City', 'Austin', 'Dallas', 'Houston', 'Miami', 'Portland', 'Seattle','San Francisco'].map(city => (
                 <a 
                   key={city} 
                   href={`/${city.toLowerCase().replace(/ /g, '-')}`} 
