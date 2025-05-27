@@ -64,9 +64,28 @@ export default function Home() {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
 
             We love dance — and we’ve been dancing forever. Now, we’re building the platform we always wished existed. 
-            Made by dancers, for the dance community. Discover dance events in your city or wherever you travel. 
-            Connect with dancers on and off the floor, find practice partners, request songs from DJs —  
-            take your dance experience to the next level.
+            Made by dancers, for the dance community.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8 max-w-3xl mx-auto text-left">
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">📍</span>
+                <span>Discover dance events in your city or wherever you travel</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">👥</span>
+                <span>Connect with dancers on and off the floor</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">🤝</span>
+                <span>Find practice partners</span>
+              </div>
+              <div className="flex items-start space-x-3 text-lg text-gray-300">
+                <span className="text-2xl flex-shrink-0">🎵</span>
+                <span>Get alerts of upcoming events</span>
+              </div>
+            </div>
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
+            Take your dance experience to the next level.
             
 
           </p>
