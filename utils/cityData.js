@@ -225,9 +225,9 @@ const cityData = {
         description: 'Dance to live salsa orchestras and world-renowned DJs in the city where salsa legends are born and celebrated.'
       },
       {
-        name: 'Reggaeton',
-        emoji: '🔥',
-        description: 'Move to the urban beats of reggaeton and perreo that pulse through Miami\'s vibrant nightlife scene.'
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Experience the flowing movements of Brazilian zouk that complement Miami\'s sensual Latin atmosphere.'
       }
     ],
     danceSchools: [
@@ -574,9 +574,9 @@ const cityData = {
         description: 'Experience salsa dancing with Southern flair, where traditional Latin styles meet Atlanta\'s famous hospitality and energy.'
       },
       {
-        name: 'Reggaeton',
-        emoji: '🔥',
-        description: 'Dance to the urban beats of reggaeton and perreo that pulse through Atlanta\'s dynamic hip-hop influenced nightlife scene.'
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Discover the flowing movements of Brazilian zouk that are gaining popularity in Atlanta\'s diverse dance community.'
       }
     ],
     danceSchools: [
