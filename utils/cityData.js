@@ -249,12 +249,12 @@ const cityData = {
     name: 'Portland',
     slug: 'portland',
     seo: {
-      title: 'Dance Events in Portland | Bachata, Salsa & Latin Dancing | Baile.AI',
-      description: 'Discover the best Portland dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Portland dance scene with Baile.AI.',
+      title: 'Dance Events in Portland | Bachata, Salsa & West Coast Swing | Baile.AI',
+      description: 'Discover the best Portland dance events, classes, and community. Connect with local dancers, find bachata, salsa, and west coast swing events. Join the Portland dance scene with Baile.AI.',
       keywords: [
-        'portland bachata events', 'portland salsa events', 'portland zouk events', 'portland latin dance events',
+        'portland bachata events', 'portland salsa events', 'portland west coast swing', 'portland latin dance events',
         'portland social dancing', 'portland dance classes', 'portland dance community', 'portland dance partners',
-        'portland kizomba events', 'portland dance meetups'
+        'portland wcs events', 'portland dance meetups', 'west coast swing portland'
       ]
     },
     hero: {
@@ -297,12 +297,12 @@ const cityData = {
     name: 'Seattle',
     slug: 'seattle',
     seo: {
-      title: 'Dance Events in Seattle | Bachata, Salsa & Latin Dancing | Baile.AI',
-      description: 'Discover the best Seattle dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Seattle dance scene with Baile.AI.',
+      title: 'Dance Events in Seattle | Bachata, Salsa & West Coast Swing | Baile.AI',
+      description: 'Discover the best Seattle dance events, classes, and community. Connect with local dancers, find bachata, salsa, and west coast swing events. Join the Seattle dance scene with Baile.AI.',
       keywords: [
-        'seattle bachata events', 'seattle salsa events', 'seattle zouk events', 'seattle latin dance events',
+        'seattle bachata events', 'seattle salsa events', 'seattle west coast swing', 'seattle latin dance events',
         'seattle social dancing', 'seattle dance classes', 'seattle dance community', 'seattle dance partners',
-        'seattle kizomba events', 'seattle dance meetups'
+        'seattle wcs events', 'seattle dance meetups', 'west coast swing seattle'
       ]
     },
     hero: {
@@ -345,12 +345,12 @@ const cityData = {
     name: 'San Francisco',
     slug: 'san-francisco',
     seo: {
-      title: 'Dance Events in San Francisco | Bachata, Salsa & Latin Dancing | Baile.AI',
-      description: 'Discover the best San Francisco dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the SF dance scene with Baile.AI.',
+      title: 'Dance Events in San Francisco | Bachata, Salsa & West Coast Swing | Baile.AI',
+      description: 'Discover the best San Francisco dance events, classes, and community. Connect with local dancers, find bachata, salsa, and west coast swing events. Join the SF dance scene with Baile.AI.',
       keywords: [
-        'sf bachata events', 'san francisco salsa events', 'sf zouk events', 'san francisco latin dance events',
+        'sf bachata events', 'san francisco salsa events', 'sf west coast swing', 'san francisco latin dance events',
         'sf social dancing', 'san francisco dance classes', 'sf dance community', 'san francisco dance partners',
-        'sf kizomba events', 'san francisco dance meetups', 'bay area dancing'
+        'sf wcs events', 'san francisco dance meetups', 'bay area dancing', 'west coast swing sf'
       ]
     },
     hero: {
@@ -447,12 +447,12 @@ const cityData = {
     name: 'Chicago',
     slug: 'chicago',
     seo: {
-      title: 'Dance Events in Chicago | Bachata, Salsa & Latin Dancing | Baile.AI',
-      description: 'Discover the best Chicago dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Chicago dance scene with Baile.AI.',
+      title: 'Dance Events in Chicago | Bachata, Salsa & West Coast Swing | Baile.AI',
+      description: 'Discover the best Chicago dance events, classes, and community. Connect with local dancers, find bachata, salsa, and west coast swing events. Join the Chicago dance scene with Baile.AI.',
       keywords: [
-        'chicago bachata events', 'chicago salsa events', 'chicago zouk events', 'chicago latin dance events',
+        'chicago bachata events', 'chicago salsa events', 'chicago west coast swing', 'chicago latin dance events',
         'chicago social dancing', 'chicago dance classes', 'chicago dance community', 'chicago dance partners',
-        'chicago kizomba events', 'chicago dance meetups', 'pilsen dancing', 'little village dancing'
+        'chicago wcs events', 'chicago dance meetups', 'pilsen dancing', 'west coast swing chicago'
       ]
     },
     hero: {
