@@ -814,7 +814,7 @@ const cityData = {
     },
     hero: {
       title: 'Dance in Madrid with Baile.AI',
-      description: 'Experience the passionate heart of Spanish dance culture in Madrid. From flamenco traditions to modern Latin rhythms, the Spanish capital offers an unmatched dance experience with true Iberian flair.'
+      description: 'Experience the passionate heart of Spanish dance culture in Madrid. From traditional Latin rhythms to modern social dancing, the Spanish capital offers an unmatched dance experience with true Iberian flair.'
     },
     danceScene: {
       overview: 'Madrid\'s dance scene combines traditional Spanish passion with modern Latin influences. As Spain\'s cultural capital with strong historical ties to Latin America, the city offers both authentic Spanish dance traditions and vibrant contemporary Latin social dancing.'
@@ -831,24 +831,24 @@ const cityData = {
         description: 'Experience salsa dancing with authentic Spanish flavor, where Latin American traditions meet European sophistication.'
       },
       {
-        name: 'Flamenco',
-        emoji: '💫',
-        description: 'Learn the iconic Spanish dance that embodies the soul of Madrid, from traditional tablaos to modern fusion styles.'
+        name: 'Kizomba',
+        emoji: '🌍',
+        description: 'Experience the intimate and smooth movements of kizomba, which has gained a passionate following in Madrid\'s diverse dance community.'
       }
     ],
     danceSchools: [
-      { name: 'Escuela de Baile Madrid', specialties: ['Salsa', 'Bachata', 'Flamenco'], area: 'Malasaña' },
+      { name: 'Escuela de Baile Madrid', specialties: ['Salsa', 'Bachata', 'Kizomba'], area: 'Malasaña' },
       { name: 'Bachata Madrid', specialties: ['Bachata Sensual', 'Bachata Moderna'], area: 'Chueca' },
       { name: 'Salsa Casino Madrid', specialties: ['Salsa Cubana', 'Rueda', 'Son'], area: 'La Latina' },
-      { name: 'Tablao Flamenco Madrid', specialties: ['Flamenco', 'Sevillanas'], area: 'Centro' }
+      { name: 'Madrid Social Dance', specialties: ['Kizomba', 'Zouk', 'Bachata'], area: 'Centro' }
     ],
     venues: [
       { name: 'Café Central', type: 'Jazz Club & Dancing', area: 'Huertas' },
       { name: 'Kapital', type: 'Multi-level Nightclub', area: 'Atocha' },
-      { name: 'Villa Rosa', type: 'Flamenco Tablao', area: 'Plaza Santa Ana' },
+      { name: 'Villa Rosa', type: 'Social Dancing Venue', area: 'Plaza Santa Ana' },
       { name: 'Gabana Club', type: 'Upscale Club', area: 'Chamberí' },
       { name: 'Joy Eslava', type: 'Historic Theater & Club', area: 'Sol' },
-      { name: 'Corral de la Morería', type: 'World-Famous Flamenco', area: 'La Latina' }
+      { name: 'Teatro Barceló', type: 'Multi-room Dance Club', area: 'Malasaña' }
     ]
   },
   'paris': {
@@ -984,22 +984,22 @@ const cityData = {
         description: 'Dance salsa with Mediterranean flair in Barcelona\'s stunning venues, from Gothic Quarter hidden gems to modern beachfront clubs.'
       },
       {
-        name: 'Flamenco',
-        emoji: '🌹',
-        description: 'Experience authentic Spanish flamenco in Barcelona, where Andalusian traditions meet Catalan innovation and artistic expression.'
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Discover the flowing movements of Brazilian zouk in Barcelona, where the sensual dance perfectly complements the Mediterranean atmosphere.'
       }
     ],
     danceSchools: [
       { name: 'Salsa Barcelona', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Eixample' },
       { name: 'Bachata Sensual Barcelona', specialties: ['Bachata Sensual', 'Bachata Fusion'], area: 'Gothic Quarter' },
-      { name: 'Flamenco Barcelona', specialties: ['Flamenco', 'Sevillanas'], area: 'El Raval' },
+      { name: 'Barcelona Social Dance', specialties: ['Zouk', 'Kizomba', 'Bachata'], area: 'El Raval' },
       { name: 'Zouk Barcelona', specialties: ['Brazilian Zouk', 'Kizomba'], area: 'Gràcia' }
     ],
     venues: [
       { name: 'Jamboree', type: 'Jazz Club & Dancing', area: 'Gothic Quarter' },
       { name: 'Opium Barcelona', type: 'Beachfront Club', area: 'Barceloneta' },
       { name: 'Razzmatazz', type: 'Multi-room Club', area: 'Poblenou' },
-      { name: 'Tablao Flamenco Cordobés', type: 'Flamenco Show', area: 'Las Ramblas' },
+      { name: 'Moog', type: 'Underground Electronic Club', area: 'Gothic Quarter' },
       { name: 'Pacha Barcelona', type: 'International Club', area: 'Zona Universitària' },
       { name: 'Shôko', type: 'Asian Fusion & Dancing', area: 'Port Olímpic' }
     ]
