@@ -73,7 +73,7 @@ export default function Home() {
         </header>
 
         <section className="flex flex-col lg:flex-row items-center justify-center gap-4 px-6 md:px-20 py-2">
-          <div className="max-w-md w-full">
+          <div className="max-w-md w-full order-2 lg:order-1">
             {!submitted ? (
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur opacity-20"></div>
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
             )}
           </div>
-          <div className="max-w-md">
+          <div className="max-w-md order-1 lg:order-2">
             <Image 
               src="/baile-phone-app.webp" 
               alt="Baile.AI App Preview" 
