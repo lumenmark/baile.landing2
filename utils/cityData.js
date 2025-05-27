@@ -697,6 +697,363 @@ const cityData = {
       { name: 'Rumor', type: 'Upscale Nightclub', area: 'Center City' },
       { name: 'World Cafe Live', type: 'Music Venue', area: 'University City' }
     ]
+  },
+  'mexico-city': {
+    name: 'Mexico City',
+    slug: 'mexico-city',
+    seo: {
+      title: 'Dance Events in Mexico City | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Mexico City dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the CDMX dance scene with Baile.AI.',
+      keywords: [
+        'mexico city bachata events', 'cdmx salsa events', 'mexico city zouk events', 'cdmx latin dance events',
+        'mexico city social dancing', 'cdmx dance classes', 'mexico city dance community', 'cdmx dance partners',
+        'mexico city kizomba events', 'cdmx dance meetups', 'roma norte dancing', 'condesa dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Mexico City with Baile.AI',
+      description: 'Experience the heart of Latin dance culture in Mexico City. From traditional salón dancing to modern bachata, CDMX offers the most authentic Latin dance experience in one of the world\'s largest cities.'
+    },
+    danceScene: {
+      overview: 'Mexico City is the epicenter of Latin American dance culture, where traditional and contemporary styles merge in the world\'s largest Spanish-speaking city. The dance scene is deeply rooted in Mexican traditions while embracing international influences, creating a unique and vibrant community.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Experience bachata with authentic Latin flavor, where Dominican traditions meet Mexican passion in CDMX\'s vibrant dance halls.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Dance salsa in its most authentic form, with traditional salón style and modern interpretations thriving across the capital.'
+      },
+      {
+        name: 'Danzón',
+        emoji: '🎺',
+        description: 'Learn the elegant and sophisticated danzón, a cornerstone of Mexican dance culture with deep historical roots in the capital.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Academia de Danza Mexicana', specialties: ['Salsa', 'Bachata', 'Danzón'], area: 'Centro Histórico' },
+      { name: 'Salsa y Control', specialties: ['Salsa Casino', 'Bachata', 'Zouk'], area: 'Roma Norte' },
+      { name: 'Bachata CDMX', specialties: ['Bachata Sensual', 'Bachata Tradicional'], area: 'Condesa' },
+      { name: 'Danza Latina México', specialties: ['Cumbia', 'Merengue', 'Salsa'], area: 'Polanco' }
+    ],
+    venues: [
+      { name: 'Salón Los Ángeles', type: 'Historic Dance Hall', area: 'Centro Histórico' },
+      { name: 'Mama Rumba', type: 'Cuban Restaurant & Dancing', area: 'Roma Norte' },
+      { name: 'Bar Américas', type: 'Classic Mexican Cantina', area: 'Coyoacán' },
+      { name: 'El Plaza Condesa', type: 'Modern Dance Venue', area: 'Condesa' },
+      { name: 'Salón México', type: 'Traditional Salón', area: 'Centro Histórico' },
+      { name: 'Patrick Miller', type: 'Retro Dance Club', area: 'Doctores' }
+    ]
+  },
+  'amsterdam': {
+    name: 'Amsterdam',
+    slug: 'amsterdam',
+    seo: {
+      title: 'Dance Events in Amsterdam | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Amsterdam dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Amsterdam dance scene with Baile.AI.',
+      keywords: [
+        'amsterdam bachata events', 'amsterdam salsa events', 'amsterdam zouk events', 'amsterdam latin dance events',
+        'amsterdam social dancing', 'amsterdam dance classes', 'amsterdam dance community', 'amsterdam dance partners',
+        'amsterdam kizomba events', 'amsterdam dance meetups', 'netherlands dancing', 'holland latin dance'
+      ]
+    },
+    hero: {
+      title: 'Dance in Amsterdam with Baile.AI',
+      description: 'Join Amsterdam\'s international dance community where Latin passion meets Dutch hospitality. Experience world-class social dancing in one of Europe\'s most cosmopolitan cities.'
+    },
+    danceScene: {
+      overview: 'Amsterdam\'s dance scene reflects the city\'s international character and liberal spirit. With a large expat community and Dutch openness to new cultures, the city has developed a sophisticated and welcoming Latin dance community that attracts dancers from across Europe.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Amsterdam\'s bachata scene is sophisticated and international, featuring workshops with world-renowned instructors and diverse styles.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with influences from across Latin America, reflecting Amsterdam\'s diverse international community.'
+      },
+      {
+        name: 'Kizomba',
+        emoji: '🌍',
+        description: 'Discover the sensual African dance that has found a passionate following in Amsterdam\'s multicultural dance scene.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Salsaventura', specialties: ['Salsa', 'Bachata', 'Zouk'], area: 'Centrum' },
+      { name: 'Amsterdam Salsa', specialties: ['Salsa Cubana', 'Rueda', 'Bachata'], area: 'Oud-Zuid' },
+      { name: 'Kizomba Amsterdam', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'Noord' },
+      { name: 'Zouk Amsterdam', specialties: ['Brazilian Zouk', 'Lambada'], area: 'Oost' }
+    ],
+    venues: [
+      { name: 'Café de Reiger', type: 'Traditional Brown Café & Dancing', area: 'Jordaan' },
+      { name: 'Studio 80', type: 'Underground Club', area: 'Centrum' },
+      { name: 'Melkweg', type: 'Cultural Center & Club', area: 'Centrum' },
+      { name: 'De School', type: 'Alternative Club', area: 'Noord' },
+      { name: 'Jimmy Woo', type: 'Upscale Nightclub', area: 'Centrum' },
+      { name: 'Concertgebouw', type: 'Concert Hall', area: 'Oud-Zuid' }
+    ]
+  },
+  'madrid': {
+    name: 'Madrid',
+    slug: 'madrid',
+    seo: {
+      title: 'Dance Events in Madrid | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Madrid dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Madrid dance scene with Baile.AI.',
+      keywords: [
+        'madrid bachata events', 'madrid salsa events', 'madrid zouk events', 'madrid latin dance events',
+        'madrid social dancing', 'madrid dance classes', 'madrid dance community', 'madrid dance partners',
+        'madrid kizomba events', 'madrid dance meetups', 'spain dancing', 'malasaña dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Madrid with Baile.AI',
+      description: 'Experience the passionate heart of Spanish dance culture in Madrid. From flamenco traditions to modern Latin rhythms, the Spanish capital offers an unmatched dance experience with true Iberian flair.'
+    },
+    danceScene: {
+      overview: 'Madrid\'s dance scene combines traditional Spanish passion with modern Latin influences. As Spain\'s cultural capital with strong historical ties to Latin America, the city offers both authentic Spanish dance traditions and vibrant contemporary Latin social dancing.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Madrid\'s bachata scene is passionate and sophisticated, with regular festivals and workshops featuring international champions.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with authentic Spanish flavor, where Latin American traditions meet European sophistication.'
+      },
+      {
+        name: 'Flamenco',
+        emoji: '💫',
+        description: 'Learn the iconic Spanish dance that embodies the soul of Madrid, from traditional tablaos to modern fusion styles.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Escuela de Baile Madrid', specialties: ['Salsa', 'Bachata', 'Flamenco'], area: 'Malasaña' },
+      { name: 'Bachata Madrid', specialties: ['Bachata Sensual', 'Bachata Moderna'], area: 'Chueca' },
+      { name: 'Salsa Casino Madrid', specialties: ['Salsa Cubana', 'Rueda', 'Son'], area: 'La Latina' },
+      { name: 'Tablao Flamenco Madrid', specialties: ['Flamenco', 'Sevillanas'], area: 'Centro' }
+    ],
+    venues: [
+      { name: 'Café Central', type: 'Jazz Club & Dancing', area: 'Huertas' },
+      { name: 'Kapital', type: 'Multi-level Nightclub', area: 'Atocha' },
+      { name: 'Villa Rosa', type: 'Flamenco Tablao', area: 'Plaza Santa Ana' },
+      { name: 'Gabana Club', type: 'Upscale Club', area: 'Chamberí' },
+      { name: 'Joy Eslava', type: 'Historic Theater & Club', area: 'Sol' },
+      { name: 'Corral de la Morería', type: 'World-Famous Flamenco', area: 'La Latina' }
+    ]
+  },
+  'paris': {
+    name: 'Paris',
+    slug: 'paris',
+    seo: {
+      title: 'Dance Events in Paris | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Paris dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Paris dance scene with Baile.AI.',
+      keywords: [
+        'paris bachata events', 'paris salsa events', 'paris zouk events', 'paris latin dance events',
+        'paris social dancing', 'paris dance classes', 'paris dance community', 'paris dance partners',
+        'paris kizomba events', 'paris dance meetups', 'france dancing', 'montmartre dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Paris with Baile.AI',
+      description: 'Experience the elegance and passion of Parisian dance culture. From romantic Latin rhythms along the Seine to sophisticated social dancing, Paris offers an enchanting dance experience in the City of Light.'
+    },
+    danceScene: {
+      overview: 'Paris\'s dance scene perfectly embodies French elegance and joie de vivre. The city\'s rich cultural heritage and international atmosphere create a sophisticated Latin dance community that appreciates both tradition and innovation in the world\'s most romantic city.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Experience bachata with Parisian elegance, where sensual movements meet French sophistication in romantic dance venues across the city.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Dance salsa with French flair, where Latin passion meets Parisian style in the most beautiful dance venues in Europe.'
+      },
+      {
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Discover Brazilian zouk in Paris, where the flowing movements perfectly complement the city\'s artistic and romantic atmosphere.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Salsa Paris', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Châtelet' },
+      { name: 'Bachata Sensual Paris', specialties: ['Bachata Sensual', 'Bachata Fusion'], area: 'République' },
+      { name: 'Zouk Paris', specialties: ['Brazilian Zouk', 'Lambada'], area: 'Pigalle' },
+      { name: 'Kizomba Paris', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'Belleville' }
+    ],
+    venues: [
+      { name: 'Le Sunset/Le Sunside', type: 'Jazz Club & Dancing', area: 'Châtelet' },
+      { name: 'La Bellevilloise', type: 'Cultural Center & Club', area: 'Belleville' },
+      { name: 'Rex Club', type: 'Underground Electronic', area: 'Grands Boulevards' },
+      { name: 'Café de la Danse', type: 'Concert Venue', area: 'Bastille' },
+      { name: 'Le Carmen', type: 'Belle Époque Club', area: 'Pigalle' },
+      { name: 'Batofar', type: 'Floating Club', area: 'Bibliothèque' }
+    ]
+  },
+  'toronto': {
+    name: 'Toronto',
+    slug: 'toronto',
+    seo: {
+      title: 'Dance Events in Toronto | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Toronto dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Toronto dance scene with Baile.AI.',
+      keywords: [
+        'toronto bachata events', 'toronto salsa events', 'toronto zouk events', 'toronto latin dance events',
+        'toronto social dancing', 'toronto dance classes', 'toronto dance community', 'toronto dance partners',
+        'toronto kizomba events', 'toronto dance meetups', 'canada dancing', 'gta dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Toronto with Baile.AI',
+      description: 'Join Toronto\'s diverse and multicultural dance community where Canadian hospitality meets Latin passion. Experience world-class social dancing in Canada\'s most international city.'
+    },
+    danceScene: {
+      overview: 'Toronto\'s dance scene reflects the city\'s incredible diversity and multiculturalism. As one of the world\'s most international cities, Toronto offers a sophisticated Latin dance community with influences from across the Americas and beyond, all wrapped in famous Canadian friendliness.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Toronto\'s bachata scene is diverse and welcoming, featuring workshops with international instructors and a strong local community.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with influences from across Latin America, reflecting Toronto\'s multicultural character and large Latino population.'
+      },
+      {
+        name: 'Zouk',
+        emoji: '🍁',
+        description: 'Discover Brazilian zouk in Toronto, where the flowing movements complement the city\'s appreciation for artistic expression and cultural diversity.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Toronto Salsa Practice', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Downtown' },
+      { name: 'Bachata Toronto', specialties: ['Bachata Sensual', 'Bachata Moderna'], area: 'Queen Street West' },
+      { name: 'Zouk Toronto', specialties: ['Brazilian Zouk', 'Lambada'], area: 'King Street' },
+      { name: 'DanceSport Academy', specialties: ['Ballroom', 'Latin', 'Social'], area: 'North York' }
+    ],
+    venues: [
+      { name: 'The Phoenix Concert Theatre', type: 'Concert Venue & Dancing', area: 'Entertainment District' },
+      { name: 'Rebel Nightclub', type: 'Large Scale Club', area: 'Entertainment District' },
+      { name: 'The Hoxton', type: 'Live Music Venue', area: 'Queen Street West' },
+      { name: 'Toybox', type: 'Intimate Club', area: 'King Street West' },
+      { name: 'Adelaide Hall', type: 'Historic Venue', area: 'Downtown' },
+      { name: 'The Opera House', type: 'Historic Theater', area: 'Leslieville' }
+    ]
+  },
+  'barcelona': {
+    name: 'Barcelona',
+    slug: 'barcelona',
+    seo: {
+      title: 'Dance Events in Barcelona | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Barcelona dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Barcelona dance scene with Baile.AI.',
+      keywords: [
+        'barcelona bachata events', 'barcelona salsa events', 'barcelona zouk events', 'barcelona latin dance events',
+        'barcelona social dancing', 'barcelona dance classes', 'barcelona dance community', 'barcelona dance partners',
+        'barcelona kizomba events', 'barcelona dance meetups', 'catalonia dancing', 'gothic quarter dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Barcelona with Baile.AI',
+      description: 'Experience the vibrant Mediterranean dance culture in Barcelona. From beachside bachata to Gothic Quarter salsa, enjoy Latin rhythms with Catalan flair in this architectural marvel by the sea.'
+    },
+    danceScene: {
+      overview: 'Barcelona\'s dance scene combines Mediterranean passion with Catalan creativity and international flair. The city\'s beach culture, architectural beauty, and vibrant nightlife create a unique backdrop for one of Europe\'s most exciting Latin dance communities.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Barcelona\'s bachata scene is passionate and beachside, with outdoor events and workshops that take advantage of the Mediterranean climate.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Dance salsa with Mediterranean flair in Barcelona\'s stunning venues, from Gothic Quarter hidden gems to modern beachfront clubs.'
+      },
+      {
+        name: 'Flamenco',
+        emoji: '🌹',
+        description: 'Experience authentic Spanish flamenco in Barcelona, where Andalusian traditions meet Catalan innovation and artistic expression.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Salsa Barcelona', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Eixample' },
+      { name: 'Bachata Sensual Barcelona', specialties: ['Bachata Sensual', 'Bachata Fusion'], area: 'Gothic Quarter' },
+      { name: 'Flamenco Barcelona', specialties: ['Flamenco', 'Sevillanas'], area: 'El Raval' },
+      { name: 'Zouk Barcelona', specialties: ['Brazilian Zouk', 'Kizomba'], area: 'Gràcia' }
+    ],
+    venues: [
+      { name: 'Jamboree', type: 'Jazz Club & Dancing', area: 'Gothic Quarter' },
+      { name: 'Opium Barcelona', type: 'Beachfront Club', area: 'Barceloneta' },
+      { name: 'Razzmatazz', type: 'Multi-room Club', area: 'Poblenou' },
+      { name: 'Tablao Flamenco Cordobés', type: 'Flamenco Show', area: 'Las Ramblas' },
+      { name: 'Pacha Barcelona', type: 'International Club', area: 'Zona Universitària' },
+      { name: 'Shôko', type: 'Asian Fusion & Dancing', area: 'Port Olímpic' }
+    ]
+  },
+  'warsaw': {
+    name: 'Warsaw',
+    slug: 'warsaw',
+    seo: {
+      title: 'Dance Events in Warsaw | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Warsaw dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Warsaw dance scene with Baile.AI.',
+      keywords: [
+        'warsaw bachata events', 'warsaw salsa events', 'warsaw zouk events', 'warsaw latin dance events',
+        'warsaw social dancing', 'warsaw dance classes', 'warsaw dance community', 'warsaw dance partners',
+        'warsaw kizomba events', 'warsaw dance meetups', 'poland dancing', 'mokotów dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Warsaw with Baile.AI',
+      description: 'Join Warsaw\'s growing and passionate dance community where Eastern European warmth meets Latin fire. Experience the emerging social dance scene in Poland\'s dynamic capital city.'
+    },
+    danceScene: {
+      overview: 'Warsaw\'s dance scene is rapidly growing and incredibly passionate. The Polish capital\'s dance community is known for its dedication, warmth, and enthusiasm for learning. With a strong emphasis on technique and connection, Warsaw offers a unique Eastern European perspective on Latin dance.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Warsaw\'s bachata scene is passionate and technical, with dedicated dancers who focus on musicality and authentic connection.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with Polish precision and warmth, where technical excellence meets genuine Latin passion.'
+      },
+      {
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Discover Brazilian zouk in Warsaw, where the flowing movements have found an enthusiastic following among Polish dancers.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Warsaw Salsa School', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Śródmieście' },
+      { name: 'Bachata Warsaw', specialties: ['Bachata Sensual', 'Bachata Tradicional'], area: 'Mokotów' },
+      { name: 'Zouk Poland', specialties: ['Brazilian Zouk', 'Lambada'], area: 'Żoliborz' },
+      { name: 'Kizomba Warsaw', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'Praga' }
+    ],
+    venues: [
+      { name: 'Palladium', type: 'Historic Cinema & Events', area: 'Złote Tarasy' },
+      { name: 'Level 27', type: 'Rooftop Bar & Dancing', area: 'Śródmieście' },
+      { name: 'Opera Club', type: 'Upscale Nightclub', area: 'Teatralny Square' },
+      { name: 'Sketch Nite Club', type: 'Underground Club', area: 'Nowy Świat' },
+      { name: 'Lava Club', type: 'Alternative Music Venue', area: 'Praga' },
+      { name: 'Casa Havana', type: 'Cuban Restaurant & Dancing', area: 'Old Town' }
+    ]
   }
 }
 
