@@ -35,7 +35,12 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 leading-relaxed font-light">
 
-            We’re building the platform dancers have always wanted — created by dancers, for the dance community. Discover social dance events in your city or wherever you travel. Connect on and off the dance floor, find practice partners, organize practice sessions, and stay in the loop..
+            We love dance — and we’ve been dancing forever. Now, we’re building the platform we always wished existed. 
+            Made by dancers, for the dance community. Discover dance events in your city or wherever you travel. 
+            Connect with dancers on and off the floor, find practice partners, request songs from DJs —  
+            take your dance experience to the next level.
+            
+
           </p>
         </header>
 
