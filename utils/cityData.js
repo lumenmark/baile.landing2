@@ -276,15 +276,15 @@ const cityData = {
         description: 'Experience Portland\'s friendly salsa scene where beginners are always welcome and the focus is on community and fun.'
       },
       {
-        name: 'Zouk',
-        emoji: '🌊',
-        description: 'Discover the flowing movements of Brazilian zouk that perfectly complement Portland\'s artistic and expressive culture.'
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'Portland\'s creative community has embraced West Coast Swing, with regular social dances and a welcoming atmosphere for dancers of all levels.'
       }
     ],
     danceSchools: [
       { name: 'PoSalsa', specialties: ['Salsa', 'Bachata', 'Cha-cha'], area: 'Southeast Portland' },
-      { name: 'Dance PDX', specialties: ['Bachata', 'Zouk', 'Blues'], area: 'Northeast Portland' },
-      { name: 'Ballroom Dance Oregon', specialties: ['Ballroom', 'Latin', 'Swing'], area: 'Southwest Portland' }
+      { name: 'Dance PDX', specialties: ['Bachata', 'West Coast Swing', 'Blues'], area: 'Northeast Portland' },
+      { name: 'Ballroom Dance Oregon', specialties: ['Ballroom', 'Latin', 'West Coast Swing'], area: 'Southwest Portland' }
     ],
     venues: [
       { name: 'Crystal Ballroom', type: 'Historic Dance Hall', area: 'Downtown' },
@@ -324,15 +324,15 @@ const cityData = {
         description: 'From Colombian to Cuban styles, Seattle\'s salsa community celebrates diversity and welcomes dancers of all levels.'
       },
       {
-        name: 'Zouk',
-        emoji: '☔',
-        description: 'Brazilian zouk has found a perfect home in Seattle, where the flowing movements complement the city\'s artistic culture.'
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'Seattle has a thriving West Coast Swing scene with passionate dancers and regular workshops featuring national champions.'
       }
     ],
     danceSchools: [
       { name: 'Seattle Salsa', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Capitol Hill' },
-      { name: 'Century Ballroom', specialties: ['Ballroom', 'Latin', 'Swing'], area: 'Capitol Hill' },
-      { name: 'Emerald City Salsa', specialties: ['Salsa', 'Bachata', 'Zouk'], area: 'Fremont' }
+      { name: 'Century Ballroom', specialties: ['Ballroom', 'West Coast Swing', 'Latin'], area: 'Capitol Hill' },
+      { name: 'Emerald City Salsa', specialties: ['Salsa', 'Bachata', 'West Coast Swing'], area: 'Fremont' }
     ],
     venues: [
       { name: 'Century Ballroom', type: 'Historic Ballroom', area: 'Capitol Hill' },
@@ -372,16 +372,16 @@ const cityData = {
         description: 'Experience salsa dancing in the city\'s historic Mission District, home to authentic Latin culture and cuisine.'
       },
       {
-        name: 'Argentine Tango',
-        emoji: '🌹',
-        description: 'San Francisco has one of the strongest tango communities in the US, with milongas throughout the week.'
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'San Francisco boasts one of the world\'s strongest West Coast Swing communities, with multiple weekly dances and world-class instruction.'
       }
     ],
     danceSchools: [
-      { name: 'Metronome Ballroom', specialties: ['Ballroom', 'Latin', 'Tango'], area: 'Mission District' },
+      { name: 'Metronome Ballroom', specialties: ['Ballroom', 'Latin', 'West Coast Swing'], area: 'Mission District' },
       { name: 'DanceFX Studios', specialties: ['Salsa', 'Bachata', 'Zouk'], area: 'SOMA' },
-      { name: 'Ashkenaz Music & Dance Community Center', specialties: ['World Dance', 'Folk', 'Latin'], area: 'Berkeley' },
-      { name: 'Allegro Ballroom', specialties: ['Ballroom', 'Latin', 'Swing'], area: 'Emeryville' }
+      { name: 'Ashkenaz Music & Dance Community Center', specialties: ['World Dance', 'Folk', 'West Coast Swing'], area: 'Berkeley' },
+      { name: 'Allegro Ballroom', specialties: ['Ballroom', 'Latin', 'West Coast Swing'], area: 'Emeryville' }
     ],
     venues: [
       { name: 'El Rio', type: 'Outdoor Patio Bar', area: 'Mission District' },
@@ -474,16 +474,16 @@ const cityData = {
         description: 'Experience salsa dancing with authentic Mexican and Puerto Rican flavors in Chicago\'s vibrant Latino neighborhoods.'
       },
       {
-        name: 'Chicago Stepping',
-        emoji: '🎩',
-        description: 'Learn the smooth and sophisticated Chicago Stepping, a uniquely local dance style that originated in the city\'s South Side.'
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'Chicago\'s West Coast Swing community is growing rapidly, with passionate dancers and regular events that showcase this versatile partner dance.'
       }
     ],
     danceSchools: [
       { name: 'Chicago Salsa & Bachata Academy', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Pilsen' },
-      { name: 'DancEast Studio', specialties: ['Bachata', 'Zouk', 'Kizomba'], area: 'Logan Square' },
+      { name: 'DancEast Studio', specialties: ['Bachata', 'West Coast Swing', 'Kizomba'], area: 'Logan Square' },
       { name: 'Tango Berretin', specialties: ['Argentine Tango', 'Milonga'], area: 'Lincoln Park' },
-      { name: 'Stepping With Style', specialties: ['Chicago Stepping', 'Steppin\''], area: 'South Side' }
+      { name: 'Chicago Dance Connection', specialties: ['West Coast Swing', 'Ballroom', 'Social'], area: 'North Side' }
     ],
     venues: [
       { name: 'Alhambra Palace', type: 'Historic Ballroom', area: 'West Side' },
