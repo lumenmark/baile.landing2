@@ -198,6 +198,37 @@ export default function CityPage() {
             </div>
           </section>
 
+          {/* Platform Features */}
+          <section className="px-6 md:px-20 py-20">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🎭</div>
+                <h3 className="text-xl font-semibold mb-3 text-pink-400">All the Events!</h3>
+                <p className="text-gray-300">Always know where the dance events are — in your home city or wherever you're visiting, with all the details included.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-purple-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">👥</div>
+                <h3 className="text-xl font-semibold mb-3 text-purple-400">Connect with Dancers</h3>
+                <p className="text-gray-300">Find dance partners nearby or in cities you're visiting. Build your dance community.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-indigo-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🏃‍♀️</div>
+                <h3 className="text-xl font-semibold mb-3 text-indigo-400">Organize Practices</h3>
+                <p className="text-gray-300">Create and join practice sessions. Improve your skills with fellow dancers.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-pink-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">🔔</div>
+                <h3 className="text-xl font-semibold mb-3 text-pink-400">Smart Alerts</h3>
+                <p className="text-gray-300">Never miss an event. Get personalized notifications for upcoming dance events.</p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:border-purple-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-3xl mb-4">💃</div>
+                <h3 className="text-xl font-semibold mb-3 text-purple-400">By Dancers, For Dancers</h3>
+                <p className="text-gray-300">Created by passionate dancers who understand the community's needs and challenges.</p>
+              </div>
+            </div>
+          </section>
+
           {/* Local Dance Community */}
           <section className="px-6 md:px-20 py-16">
             <div className="max-w-6xl mx-auto">
