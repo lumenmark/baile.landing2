@@ -27,7 +27,7 @@ export default function CityPage({ cityData }) {
         type: '',
         referrer,
         app: 'Baile',
-        city: cityData.name
+        data1: cityData.name
       })
     })
     if (res.ok) setSubmitted(true)

@@ -19,7 +19,8 @@ export default function Home() {
         email,
         type: '',
         referrer,
-        app: 'Baile'
+        app: 'Baile',
+        data1: 'homepage'
       })
     })
     if (res.ok) setSubmitted(true)
