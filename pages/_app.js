@@ -32,8 +32,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💃</text></svg>" />
         <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💃</text></svg>" />
         
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://baile.ai/" />
       </Head>
       <Component {...pageProps} />
       <Analytics />

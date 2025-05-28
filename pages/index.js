@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head'
 import { useState, useEffect } from 'react'
 
 export default function Home() {
@@ -28,6 +29,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://baile.ai/" />
+      </Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
