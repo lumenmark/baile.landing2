@@ -1054,6 +1054,261 @@ const cityData = {
       { name: 'Lava Club', type: 'Alternative Music Venue', area: 'Praga' },
       { name: 'Casa Havana', type: 'Cuban Restaurant & Dancing', area: 'Old Town' }
     ]
+  },
+  'boston': {
+    name: 'Boston',
+    slug: 'boston',
+    seo: {
+      title: 'Dance Events in Boston | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Boston dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Boston dance scene with Baile.AI.',
+      keywords: [
+        'boston bachata events', 'boston salsa events', 'boston zouk events', 'boston latin dance events',
+        'boston social dancing', 'boston dance classes', 'boston dance community', 'boston dance partners',
+        'boston kizomba events', 'boston dance meetups', 'cambridge dancing', 'somerville dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Boston with Baile.AI',
+      description: 'Experience Boston\'s sophisticated dance community where New England charm meets Latin passion. Join a diverse and educated dance scene in the historic Hub of the Universe.'
+    },
+    danceScene: {
+      overview: 'Boston\'s dance scene reflects the city\'s academic excellence and cultural sophistication. With numerous universities and a highly educated population, the dance community emphasizes technique, musicality, and intellectual appreciation for Latin culture and rhythm.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Boston\'s bachata scene is refined and welcoming, with dancers who appreciate both traditional Dominican styles and contemporary innovations.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with New England sophistication, where technical precision meets warm Latin rhythms in historic venues.'
+      },
+      {
+        name: 'West Coast Swing',
+        emoji: '✨',
+        description: 'Boston\'s academic community has embraced West Coast Swing, creating a thriving scene with regular workshops and social dances.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Boston Salsa Company', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Back Bay' },
+      { name: 'MIT Ballroom Dance Team', specialties: ['Ballroom', 'Latin', 'West Coast Swing'], area: 'Cambridge' },
+      { name: 'Boston Bachata Academy', specialties: ['Bachata Sensual', 'Bachata Traditional'], area: 'Somerville' },
+      { name: 'Harvard Ballroom Dance Team', specialties: ['Ballroom', 'Latin', 'Social'], area: 'Cambridge' }
+    ],
+    venues: [
+      { name: 'House of Blues Boston', type: 'Concert Venue & Dancing', area: 'Fenway' },
+      { name: 'Middle East Restaurant & Nightclub', type: 'Live Music & Dancing', area: 'Cambridge' },
+      { name: 'Royale Boston', type: 'Upscale Nightclub', area: 'Theater District' },
+      { name: 'The Grand Boston', type: 'Multi-level Club', area: 'Seaport' },
+      { name: 'Paradise Rock Club', type: 'Historic Music Venue', area: 'Back Bay' },
+      { name: 'Havana Club', type: 'Latin Restaurant & Dancing', area: 'North End' }
+    ]
+  },
+  'lisbon': {
+    name: 'Lisbon',
+    slug: 'lisbon',
+    seo: {
+      title: 'Dance Events in Lisbon | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Lisbon dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Lisbon dance scene with Baile.AI.',
+      keywords: [
+        'lisbon bachata events', 'lisbon salsa events', 'lisbon zouk events', 'lisbon latin dance events',
+        'lisbon social dancing', 'lisbon dance classes', 'lisbon dance community', 'lisbon dance partners',
+        'lisbon kizomba events', 'lisbon dance meetups', 'portugal dancing', 'bairro alto dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Lisbon with Baile.AI',
+      description: 'Experience Lisbon\'s passionate dance scene where Portuguese saudade meets Latin fire. Dance under the stars in Europe\'s most romantic coastal capital with stunning views and authentic rhythms.'
+    },
+    danceScene: {
+      overview: 'Lisbon\'s dance scene beautifully blends Portuguese melancholy with Latin passion, creating a unique European dance experience. The city\'s historic connections to Africa and Brazil have fostered a diverse and authentic social dance community with strong roots in traditional rhythms.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Lisbon\'s bachata scene captures Portuguese romanticism with Dominican passion, creating unforgettable dance experiences against the city\'s historic backdrop.'
+      },
+      {
+        name: 'Kizomba',
+        emoji: '🌍',
+        description: 'Experience kizomba in its European birthplace, where Angolan roots meet Portuguese culture in the smooth, intimate dance that originated in Lisbon.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Dance salsa with Portuguese warmth and hospitality, where Latin American rhythms blend beautifully with European sophistication.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Lisboa Latina', specialties: ['Salsa', 'Bachata', 'Kizomba'], area: 'Bairro Alto' },
+      { name: 'Kizomba Lisboa', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'Príncipe Real' },
+      { name: 'Bachata Portugal', specialties: ['Bachata Sensual', 'Bachata Traditional'], area: 'Chiado' },
+      { name: 'Salsa Feeling Lisboa', specialties: ['Salsa Cubana', 'Rueda', 'Son'], area: 'Alfama' }
+    ],
+    venues: [
+      { name: 'Lux Frágil', type: 'Iconic Nightclub', area: 'Cais do Sodré' },
+      { name: 'Bairro Alto Hotel', type: 'Rooftop Bar & Dancing', area: 'Bairro Alto' },
+      { name: 'B.Leza', type: 'African Music & Kizomba', area: 'Cais do Sodré' },
+      { name: 'Titanic Sur Mer', type: 'Restaurant & Dancing', area: 'Cais do Sodré' },
+      { name: 'Ministerium Club', type: 'Alternative Club', area: 'Cais do Sodré' },
+      { name: 'Sr. Fado', type: 'Traditional Fado House', area: 'Alfama' }
+    ]
+  },
+  'london': {
+    name: 'London',
+    slug: 'london',
+    seo: {
+      title: 'Dance Events in London | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best London dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the London dance scene with Baile.AI.',
+      keywords: [
+        'london bachata events', 'london salsa events', 'london zouk events', 'london latin dance events',
+        'london social dancing', 'london dance classes', 'london dance community', 'london dance partners',
+        'london kizomba events', 'london dance meetups', 'uk dancing', 'shoreditch dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in London with Baile.AI',
+      description: 'Join London\'s vibrant and multicultural dance scene where British sophistication meets global Latin rhythms. Experience world-class social dancing in one of the world\'s greatest cities.'
+    },
+    danceScene: {
+      overview: 'London\'s dance scene is as diverse as the city itself, with influences from across Latin America, Africa, and the Caribbean. The city\'s international character and rich cultural heritage create one of Europe\'s most sophisticated and welcoming dance communities.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'London\'s bachata scene is internationally renowned, featuring workshops with world champions and a diverse community of passionate dancers.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa dancing with influences from across the former British Empire, creating unique fusion styles and authentic Latin experiences.'
+      },
+      {
+        name: 'Kizomba',
+        emoji: '🌍',
+        description: 'London has one of Europe\'s strongest kizomba scenes, with deep connections to African and Portuguese communities and regular international festivals.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Salsa London', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Covent Garden' },
+      { name: 'London Bachata Academy', specialties: ['Bachata Sensual', 'Bachata Modern'], area: 'Shoreditch' },
+      { name: 'Kizomba London', specialties: ['Kizomba', 'Semba', 'Tarraxo'], area: 'King\'s Cross' },
+      { name: 'Zouk London', specialties: ['Brazilian Zouk', 'Lambada'], area: 'Camden' }
+    ],
+    venues: [
+      { name: 'Fabric', type: 'World-famous Nightclub', area: 'Farringdon' },
+      { name: 'XOYO', type: 'Underground Club', area: 'Shoreditch' },
+      { name: 'Ministry of Sound', type: 'Legendary Dance Club', area: 'Elephant & Castle' },
+      { name: 'The Jazz Cafe', type: 'Live Music & Dancing', area: 'Camden' },
+      { name: 'Ronnie Scott\'s', type: 'Historic Jazz Club', area: 'Soho' },
+      { name: 'Rich Mix', type: 'Cultural Center', area: 'Bethnal Green' }
+    ]
+  },
+  'berlin': {
+    name: 'Berlin',
+    slug: 'berlin',
+    seo: {
+      title: 'Dance Events in Berlin | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Berlin dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Berlin dance scene with Baile.AI.',
+      keywords: [
+        'berlin bachata events', 'berlin salsa events', 'berlin zouk events', 'berlin latin dance events',
+        'berlin social dancing', 'berlin dance classes', 'berlin dance community', 'berlin dance partners',
+        'berlin kizomba events', 'berlin dance meetups', 'germany dancing', 'kreuzberg dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Berlin with Baile.AI',
+      description: 'Experience Berlin\'s underground dance culture where Latin passion meets German precision. Join the most creative and alternative dance scene in Europe\'s cultural capital.'
+    },
+    danceScene: {
+      overview: 'Berlin\'s dance scene embodies the city\'s creative spirit and alternative culture. Known for its underground clubs and artistic freedom, Berlin offers a unique Latin dance experience that blends traditional rhythms with innovative expression and German organizational excellence.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Berlin\'s bachata scene is creative and expressive, with dancers who push boundaries while respecting traditional Dominican roots.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa with Berlin\'s alternative edge, where Latin rhythms meet electronic music culture in unique underground venues.'
+      },
+      {
+        name: 'Zouk',
+        emoji: '🌊',
+        description: 'Berlin\'s artistic community has embraced Brazilian zouk, creating flowing dance experiences in the city\'s famous warehouse spaces.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Salsa Company Berlin', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Mitte' },
+      { name: 'Bachata Berlin', specialties: ['Bachata Sensual', 'Bachata Fusion'], area: 'Kreuzberg' },
+      { name: 'Zouk Berlin', specialties: ['Brazilian Zouk', 'Lambada'], area: 'Prenzlauer Berg' },
+      { name: 'Kizomba Berlin', specialties: ['Kizomba', 'Urban Kiz', 'Tarraxo'], area: 'Friedrichshain' }
+    ],
+    venues: [
+      { name: 'Berghain', type: 'Legendary Techno Club', area: 'Friedrichshain' },
+      { name: 'Watergate', type: 'Underground Electronic', area: 'Kreuzberg' },
+      { name: 'Zur Wilden Renate', type: 'Alternative Club', area: 'Friedrichshain' },
+      { name: 'About Blank', type: 'Outdoor Club', area: 'Friedrichshain' },
+      { name: 'Yaam', type: 'Beach Bar & Reggae', area: 'Friedrichshain' },
+      { name: 'SO36', type: 'Punk & Alternative Venue', area: 'Kreuzberg' }
+    ]
+  },
+  'rome': {
+    name: 'Rome',
+    slug: 'rome',
+    seo: {
+      title: 'Dance Events in Rome | Bachata, Salsa & Latin Dancing | Baile.AI',
+      description: 'Discover the best Rome dance events, classes, and community. Connect with local dancers, find bachata and salsa events. Join the Rome dance scene with Baile.AI.',
+      keywords: [
+        'rome bachata events', 'rome salsa events', 'rome zouk events', 'rome latin dance events',
+        'rome social dancing', 'rome dance classes', 'rome dance community', 'rome dance partners',
+        'rome kizomba events', 'rome dance meetups', 'italy dancing', 'trastevere dancing'
+      ]
+    },
+    hero: {
+      title: 'Dance in Rome with Baile.AI',
+      description: 'Experience the eternal romance of dancing in Rome, where ancient history meets Latin passion. Join passionate dancers in the most beautiful dance venues in the world\'s most romantic city.'
+    },
+    danceScene: {
+      overview: 'Rome\'s dance scene combines Italian passion with Latin rhythms against the backdrop of eternal beauty. The city\'s rich cultural heritage and Mediterranean temperament create a warm and expressive dance community that celebrates both tradition and modern innovation.'
+    },
+    danceStyles: [
+      {
+        name: 'Bachata',
+        emoji: '💃',
+        description: 'Roman bachata dancers bring Italian passion and expressiveness to this sensual Caribbean dance, creating magical moments in historic settings.'
+      },
+      {
+        name: 'Salsa',
+        emoji: '🕺',
+        description: 'Experience salsa with Italian flair, where Latin American rhythms meet Roman enthusiasm in venues that have witnessed millennia of celebration.'
+      },
+      {
+        name: 'Tango',
+        emoji: '🌹',
+        description: 'Rome\'s appreciation for romance and drama has created a thriving tango scene that perfectly complements the city\'s eternal beauty.'
+      }
+    ],
+    danceSchools: [
+      { name: 'Roma Salsa', specialties: ['Salsa', 'Bachata', 'Merengue'], area: 'Centro Storico' },
+      { name: 'Bachata Roma', specialties: ['Bachata Sensual', 'Bachata Traditional'], area: 'Trastevere' },
+      { name: 'Tango Roma', specialties: ['Argentine Tango', 'Milonga'], area: 'Testaccio' },
+      { name: 'Zouk Italia', specialties: ['Brazilian Zouk', 'Kizomba'], area: 'San Lorenzo' }
+    ],
+    venues: [
+      { name: 'Shari Vari', type: 'Historic Club', area: 'Testaccio' },
+      { name: 'Goa Club', type: 'Alternative Venue', area: 'Ostiense' },
+      { name: 'Room 26', type: 'Upscale Club', area: 'EUR' },
+      { name: 'Art Cafe', type: 'Cultural Center', area: 'Trastevere' },
+      { name: 'Rashomon Club', type: 'Underground Venue', area: 'Testaccio' },
+      { name: 'La Cabala', type: 'Historic Rome Club', area: 'Centro Storico' }
+    ]
   }
 }
 

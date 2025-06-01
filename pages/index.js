@@ -221,7 +221,7 @@ export default function Home() {
               Current Cities
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {['New York City', 'Los Angeles', 'Chicago', 'Austin', 'Dallas', 'Houston', 'Miami', 'Washington DC', 'Atlanta', 'Orlando', 'Philadelphia', 'Portland', 'Seattle','San Francisco', 'Mexico City', 'Amsterdam', 'Madrid', 'Paris', 'Toronto', 'Barcelona', 'Warsaw'].map(city => (
+              {['New York City', 'Los Angeles', 'Chicago', 'Austin', 'Dallas', 'Houston', 'Miami', 'Washington DC', 'Atlanta', 'Orlando', 'Philadelphia', 'Portland', 'Seattle','San Francisco', 'Mexico City', 'Amsterdam', 'Madrid', 'Paris', 'Toronto', 'Barcelona', 'Warsaw', 'Boston', 'Lisbon', 'London', 'Berlin', 'Rome'].map(city => (
                 <a 
                   key={city} 
                   href={`/${city.toLowerCase().replace(/ /g, '-')}`} 
